@@ -13,6 +13,10 @@ config_version=5
 config/name="Simple Game Project"
 config/features=PackedStringArray("4.5", "Mobile")
 
+[autoload]
+
+scene_manager="*res://autoload/scene_manager.gd"
+
 [display]
 
 window/size/viewport_width=480
